@@ -1,0 +1,116 @@
+<!DOCTYPE HTML>
+<head>
+  <title>Dashboard</title>
+  <link rel = "icon" href = "IMG/CanvasLogo.png" type = "image/x-icon">
+  <!--<link rel="stylesheet" href="index.css">--> <!-- Basic CSS (LOGO) -->
+  <link rel="stylesheet" href="navbar.css"> <!-- Navigation Bar -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+ <style>
+    body{
+      background-color: rgb(0, 0, 0);
+      color: ghostwhite;
+      font-family: 'Montserrat', sans-serif;
+    }
+    h4{
+      font-size: 50px;
+    }
+    .logo {
+      
+      -webkit-animation:spin 4s linear infinite;
+      -moz-animation:spin 4s linear infinite;
+      animation:spin 4s linear infinite;
+    }
+
+    @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+    @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+    @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+ 
+   .container{
+		width: 90%;
+		padding: 20px;
+		margin: 100px auto;	 
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+	
+
+	.box{
+		width: 250px;
+		margin: 0 10px;
+		box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+		transition: 1s;
+
+	}
+	.box img{
+		display: block;
+		width:100%;
+		border-radius: 5px;
+	}
+	.box:hover{
+		transform: scale(1.3);
+		z-index: 2;
+	}
+	</style>
+</head>
+<body>
+  <center><!--<h1 spellcheck="false" class="logo">bsd48org.github.io</h1>--></center>
+ 
+  <div class="topnav">
+    <a href="index.html"><img class="logo" width="25" height="25" src="IMG/CanvasLogo.png"></a>
+    <a href="https://discord.gg/Rd3JyzZyCP"><img width="25" height="25" src="IMG/Discord.png"></a>
+    <a href="https://www.youtube.com/channel/UCOtncOXCAP6us3wd-zlONWQ"><img width="25" height="25" src="IMG/youtube.png"></a>
+  </div>
+<div class="container">
+		<div class="box">
+			   <a href="proxy.html"><img src="IMG/Proxy.png"></a>
+		</div>
+	</div>
+	
+	<div class="container">
+	<div class="box">
+			   <a href="games/gb.html"><img src="IMG/Gameboy.png"></a>
+		</div>	
+	</div>
+	
+	<div class="container">
+		<div class="box">
+			   <a href="Slope/index.html"><img src="IMG/slope.jpg" alt="Image didn't load, slope"></a>
+		</div>
+		<div class="box">
+			   <a href="games/templerun2.html"><img src="IMG/TempleRun2.png" alt="Image didn't load, temple run 2"></a>
+		</div>
+		
+		<div class="box">
+			   <a href="games/basketballstars.html"><img src="IMG/Basketball stars.avif" alt="Image didn't load, Basketball stars"></a>
+		</div>
+		
+		<div class="box">
+			   <a href="games/1v1lol.html"><img src="IMG/1v1lol.avif" alt="Image didn't load, 1v1lol"></a>
+		</div> 
+		
+		<div class="box">
+			   <a href="games/shellshockers.html"><img src="IMG/shell-shockers.jpg" alt="Image didn't load, shell-shockers"></a>
+		</div>
+		
+		<div class="box">
+			   <a href="games/surviv.html"><img src="IMG/surviv.io.webp" alt="Image didn't load, survivio"></a>
+		</div>
+		</div>
+	
+	
+	
+	
+	
+	<!--<script>
+window.addEventListener('beforeunload', (event) => {
+  event.returnValue = `Are you sure you want to leave?`;
+});
+	</script> -->
+
+
+</body>
