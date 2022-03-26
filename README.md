@@ -1,2 +1,2 @@
 # google-classroom
-ALL CREDIT AND INSPIRATION GOES TO FreeBSD461069
+All code for the math method is being deleted and the new site is https://github.com/FreeBSD461069/CanvasRemastered
