@@ -19,14 +19,14 @@
 			background-color: white;
 		}
 	</style>
-	<script src="/papastacomia.swf"></script>
+	<script src="papastacomia.swf"></script>
 </head>
 
 <body>
 	<script>
 		window.addEventListener("load", () => {
 
-			const config = JSON.parse(window.location.search);
+			const config = JSON.parse(iConfigBase.ts);
 
 			AWAYFL.LegacyLoader.init(config);
 			AWAYFL.LegacyLoader.runGame((fill) => {
